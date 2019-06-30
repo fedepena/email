@@ -10,15 +10,14 @@
     <body style="margin: 0; background-color: #f5efe6;">
         <div style="background-color: #ffffff; max-width: 700px; margin: 2% auto; box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 5px; padding: 3% 6%;">
             <div id="wp-header-es">
-                <div style="border-bottom: 1px dotted #ccc; color: #999; font-family: Arial, sans-serif; font-size: 0.9375rem; padding-bottom: 1%;">Usted está recibiendo este email por qué tiene una cuenta de&nbsp;
-                    <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com">myAbakus</a>
-                </div>
-                <div style="padding-top: 1%;">
-                    <a style="text-decoration: none;" href="https://www.myabakus.com"> <img src="http://www.myabakus.com/images/myabakus.png" border="0" alt="Logo" width="250" height="48"/> </a>
-                </div>
-                <div style="background: rgb(0, 110, 0); background-image: linear-gradient(180deg, rgb(0, 136, 0) 0%, rgb(0, 85, 0) 100%); border-radius: 5px; color: #fff; display: block; font-family: Verdana; font-size: 0.9375rem; padding: 0.75% 1.25%; margin-top: 0.25%;">Mantenga el dedo en el pulso financiero de su empresa
+    <div style="border-bottom: 1px dotted #ccc; color: #999; font-family: Arial, sans-serif; font-size: 0.9375rem; padding-bottom: 1%;">Usted está recibiendo este email por qué tiene una cuenta de <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com">myAbakus</a>
+    </div>
+    <div style="padding-top: 1%;">
+        <a style="text-decoration: none;" href="https://www.myabakus.com"> <img src="http://www.myabakus.com/images/myabakus.png" border="0" alt="Logo" width="250" height="48"/></a>
+    </div>
+    <div style="background: rgb(0, 110, 0); background-image: linear-gradient(180deg, rgb(0, 136, 0) 0%, rgb(0, 85, 0) 100%); border-radius: 5px; color: #fff; display: block; font-family: Verdana; font-size: 0.9375rem; padding: 0.75% 1.25%; margin-top: 0.25%;">Mantenga el dedo en el pulso financiero de su empresa
 </div>
-            </div>
+</div>
             <div>
                 <div style="overflow: auto;">
                     <h1 style="float: left; margin-top: 1.5%; font-family: Cabin, Georgia, serif; font-size: 2rem; margin-bottom: 0;">¿No Está 100% Seguro Qué tan rentable es $company?</h1>
@@ -50,9 +49,8 @@
                     <a style="color: #fff; text-decoration: none; font-family: Cabin, Georgia, serif; font-size: 1rem;" href="https://fedepena.typeform.com/to/Fkp3iT?company={$company}&name={$name}&email={$email}&phone={$phone}&company_id={$company_id}&source=email"><div style="text-align: center; border-radius: 10px; background: #149dcc; padding: 1% 5%; margin-top: 30px; width: 50%; margin-left: auto; margin-right: auto;">ME INTERESA, HABLEMOS</div></a>
                 </div>
             </div>
-            <div style="color: #999; border-top: 1px dotted #ccc; font-family: Arial, sans-serif; font-size: 0.9375rem; padding-top: 1%;" id="wp-footer-es">Para no recibir emails sobre myAbakus
-                <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com/app/account/delete/{$company_id}">haga clic aquí para cancelar su cuenta</a>
-            </div>
+            <div style="color: #999; border-top: 1px dotted #ccc; font-family: Arial, sans-serif; font-size: 0.9375rem; padding-top: 1%;" id="wp-footer-es">{if $admin}Para no recibir emails sobre myAbakus <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com/app/account/delete/{$company_id}">haga clic aquí para cancelar su cuenta</a>{/if}
+</div>
         </div>
     </body>
 </html>
