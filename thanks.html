@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www=
+.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" data-pgc-master="master-en.html">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome myAbakus</title>
+    </head>
+    <body style="margin: 0; padding: 0;">
+        <div style="max-width: 700px; padding: 3% 6%; margin-left: auto; margin-right: auto; font-family: 'Helvetica Neue', Arial, sans-serif;">
+            <div id="wp-header-en">
+              <div style="border-bottom: 1px dotted #ccc; color: #999; font-size: 0.9375rem; padding-bottom: 1%;">You are receiving this email because you have a <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com">myAbakus</a> account
+              </div>
+              <div style="padding-top: 1%;">
+                <a style="text-decoration: none;" href="https://www.myabakus.com"><img src="http://www.myabakus.com/images/myabakus.png" alt="Logo" width="250" height="48" border="0"></a>
+              </div>
+              <div style="background: #006e00; background-image: linear-gradient(180deg, #008800 0%, #005500 100%); border-radius: 5px; color: #fff; display: block; font-family: Verdana, Geneva, sans-serif; font-size: 0.875rem; padding: 0.75% 1.25%; margin-top: 0.25%;">Keep your finger in the financial pulse of your business
+              </div>
+            </div>
+            <div id="wp-content-en" style="color: #333; font-size: 1rem; line-height: 1.75rem;" data-pgc-field="wp-content-en">
+              <h1 style="margin-top: 1.5%; font-size: 1.75rem; font-weight: bold; margin-bottom: 1.5%;">Thanks for subscribing: We appreciate your support and are here to help</h1>
+              <p>Thanks for the payment of your subscription for {$company}.</p>
+              <div style="width: 400px; margin-bottom: 20px">
+              <table style="border: none; margin: 0; padding: 0; border-collapse: collapse; width: 100%">
+              <tbody>
+              <tr style="background: #fff1d7; height: 23px; border-top: 1px solid #fff;">
+              <td style="border: none; margin: 0; padding: 0 0 0 8px;">{$months} month(s) of myAbakus subscription</td>
+              <td style="border: none; margin: 0; padding: 0 8px 0 8px; text-align: right;">${$price}</td>
+              </tr>
+              </tbody>
+              </table>
+              {foreach from=$features item=feature}
+              {/foreach}
+              <table style="border: none; margin: 0; padding: 0; border-collapse: collapse; width: 100%">
+              <thead>
+              <tr>
+              <th style="background: rgb(0, 110, 0); background-image: linear-gradient(180deg, #008800 0%, #005500 100%); height: 25px; color: #fff; padding: 0 8px; font-weight: normal; text-align: left;" colspan="2">Your Plan</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr style="background: #{$feature.background}; height: 20px; border-top: 1px solid #fff;">
+              <td style="border: none; margin: 0; padding: 0 8px;">{$feature.label}</td>
+              </tr>
+              </tbody>
+              </table>
+              </div>
+              <p>We appreciate you support and our job is to make sure myAbakus becomes a valuable tool that helps you run your business.</p>
+              <p>Keep in mind that your subscription entitles you to personal customer support by your preferred mean (chat, email, phone, video), so please do not hesitate to contact us if you have any question or suggestion. We’ll be more than happy to help.</p>
+              </div>
+            <div id="wp-footer-en" style="color: #999; border-top: 1px dotted #ccc; font-size: 0.9375rem; padding-top: 1%; text-align: center; margin-top: 5%;">{if $admin}To stop receiving emails <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com/app/account/delete/{$company_id}">unsubscribe here </a>to cancel your <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com">myAbakus</a> account{/if}<br><br>@Nomad Web Ventures Inc 2019<br><br>291 Wythe Av #3, Brooklyn NY 11249
+            </div>
+        </div>
+    </body>
+</html>
