@@ -6,33 +6,20 @@
     <!-- <link rel="stylesheet" href="css/gs.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans" rel="stylesheet" type="text/css">
     <style>
-      @media (max-width:540px) {
-          .header img {
-              margin-bottom: 1rem;
-          }
-
-          .video {
-              display: flex;
-              flex-direction: column;
-          }
-
-          .video img {
-              margin-top: 1.25rem;
-              width: 100%;
-          }
-      }
-
       @media (min-width:541px) {
-          .video img {
-              margin-right: 1rem;
-              width: 250px;
-              height: 150px;
-          }
+        .header {
+          display: flex;
+          justify-content: space-evenly;
+        }
 
-          .video {
-              display: flex;
-              flex-direction: row-reverse;
-          }
+        .video {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+
+        .video img {
+          margin-right: 1rem;
+        }
       }
     </style>
   </head>
@@ -40,21 +27,25 @@
     <div class="outer-wrapper" style="height: 100vh; font-family: 'Quattrocento Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1rem; line-height: 1.2rem; color: #4c4c4c; background: #F5EFE6; padding-left: 1rem; padding-right: 1rem; min-width: 22.875rem;">
       <div class="inner-wrapper" style="height: 100%; max-width: 43.75rem; background: #FFFFFF; margin: 0 auto; border: 1px solid #E6E6E6; min-width: 21.875rem;">
         <header>
-          <div class="header" style="display: flex; padding: 1rem; background: url('/images/background.png'); justify-content: space-evenly; flex-wrap: wrap;">
+          <div class="header" style=" padding: 1rem; background: url('https://myabakus.github.io/email/images/background.png');
+
+text-align: center;">
             <img src="https://www.myabakus.com/images/myabakus.png" style="
-width: 250px; height: 49px;"><h1 style="font-family: Cabin, Georgia, 'Times New Roman', Times, serif; font-size: 2rem; line-height: 2rem; margin: 0; align-self: flex-end;">Guia de Arranque</h1>
+width: 250px; height: 49px; margin-bottom: 1rem;"><h1 style="font-family: Cabin, Georgia, 'Times New Roman', Times, serif; font-size: 2rem; line-height: 2rem; margin: 0; align-self: center;">Guia de Arranque</h1>
           </div>
         </header>
         <main>
           <div class="content" style="padding: 1.25rem 2.5rem;">
             <p style="margin: 0;">El objetivo de este guía es mostrarle la secuencia que usamos para ingresar la información de la empresa demo para que usted pueda entender de donde viene y aplicar la misma lógica en la evaluación e implementación del software en su empresa.</p>
             <hr style="border-top: none; border-bottom: 1px solid #E6E6E6; margin-top: 1.25rem; margin-bottom: 1.25rem;">
-            <div class="video" style="
-/* display: flex */">
-              <div class="video-text">
+            <div class="video">
+              <div class="video-text" style="margin-bottom: 1.25rem;">
                 <h2 style="font-family: Cabin, Georgia, 'Times New Roman', Times, serif; font-size: 1.25rem; font-weight: 600; color: #B94A48; margin-top: 0; margin-bottom: 0.625rem;">Bienvenido: Cómo usar la guía de arranque</h2>
                 <p style="margin: 0;">Para determinar si nuestro producto hace lo que usted quiere y necesita para su empresa</p>
-              </div><img src="https://myabakus.github.io/email/images/video-thumb.png" style="width: 250px; height: 140px; align-self: center;">
+              </div>
+              <div class="video-thumb" style="text-align: center;">
+                <img src="https://myabakus.github.io/email/images/video-thumb.png" style="width: 250px; height: 140px; align-self: center;">
+              </div>
             </div>
           </div>
         </main>
