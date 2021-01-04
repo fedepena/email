@@ -3,23 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/gs.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans" rel="stylesheet" type="text/css">
     <style>
       @media (max-width:540px) {
           .header img {
               margin-bottom: 1rem;
           }
+
           .video {
               flex-direction: column;
           }
-          .video-thumb {
+
+          .video img {
               margin-top: 1.25rem;
+              width: 100%;
           }
       }
+
       @media (min-width:541px) {
-          .video-thumb {
+          .video img {
               margin-right: 1rem;
+              width: 250px;
           }
+
           .video {
               flex-direction: row-reverse;
           }
@@ -30,9 +37,8 @@
     <div class="outer-wrapper" style="height: 100vh; font-family: 'Quattrocento Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1rem; line-height: 1.2rem; color: #4c4c4c; background: #F5EFE6; padding-left: 1rem; padding-right: 1rem; min-width: 22.875rem;">
       <div class="inner-wrapper" style="height: 100%; max-width: 43.75rem; background: #FFFFFF; margin: 0 auto; border: 1px solid #E6E6E6; min-width: 21.875rem;">
         <header>
-          <div class="header" style="display: flex; padding: 1rem; background: url('images/background.svg'); justify-content: space-evenly; flex-wrap: wrap;">
-
-            <img src="images/myabakus.png" style="width: 250px;"><h1 style="font-family: Cabin, Georgia, 'Times New Roman', Times, serif; font-size: 2rem; line-height: 2rem; margin: 0; align-self: flex-end;">Guia de Arranque</h1>
+          <div class="header" style="display: flex; padding: 1rem; background: url('https://myabakus.github.io/email/images/background.svg'); justify-content: space-evenly; flex-wrap: wrap;">
+            <img src="https://myabakus.github.io/email/images/myabakus.png" style="width: 250px;"><h1 style="font-family: Cabin, Georgia, 'Times New Roman', Times, serif; font-size: 2rem; line-height: 2rem; margin: 0; align-self: flex-end;">Guia de Arranque</h1>
           </div>
         </header>
         <main>
@@ -43,17 +49,14 @@
               <div class="video-text">
                 <h2 style="font-family: Cabin, Georgia, 'Times New Roman', Times, serif; font-size: 1.25rem; font-weight: 600; color: #B94A48; margin-top: 0; margin-bottom: 0.625rem;">Bienvenido: Cómo usar la guía de arranque</h2>
                 <p style="margin: 0;">Para determinar si nuestro producto hace lo que usted quiere y necesita para su empresa</p>
-              </div><div class="video-thumb">
-                <img src="images/video-thumb.png" style="width: 100%;">
-              </div>
-
+              </div><img src="https://myabakus.github.io/email/images/video-thumb.png">
             </div>
           </div>
         </main>
         <footer>
           <div class="footer" style="padding: 1rem; color: #999999;">
             <hr style="border-top: none; border-bottom: 1px solid #E6E6E6;">
-            <p style="margin: 0; padding-left: 1rem; padding-right: 1rem;">Usted está recibiendo este correro por qué registró una cuenta de <a href="" style="color: #336699; text-decoration: none;">myAbakus</a> y verificó su email. Para no continuar recibiendo la sequencia de correos con la guia de arranque, simplemente <a href="" style="color: #336699; text-decoration: none;">dese de baja de esa lista</a>.</p>
+            <p style="margin: 0; padding-left: 1rem; padding-right: 1rem;">Usted está recibiendo este correro por qué registró una cuenta de <a href="" style="color: #336699; text-decoration: none;">myAbakus</a> y verificó su email. Para no continuar recibiendo la sequencia de correos con la guia de arranque, simplemente <unsubscribe><a href="" style="color: #336699; text-decoration: none;">dese de baja de esa lista</a></unsubscribe>.</p>
             <p style="text-align: center; margin-top: 0.625rem; margin-bottom: 0;">@Nomad Web Ventures Inc 2021</p>
             <p style="text-align: center; margin-top: 0.625rem; margin-bottom: 0;">291 Wythe Av #3, Brooklyn NY 11249</p>
           </div>
