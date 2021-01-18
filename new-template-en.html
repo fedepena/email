@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Email template</title>
+  </head>
+  <body style="margin: 0; padding: 0;">
+    <div class="wrapper" style="min-width: 21.875rem; max-width: 43.75rem; padding: 1rem 1.25rem ; margin: 0 auto; font-family: 'Helvetica Neue', Arial, sans-serif;">
+      <header style="font-size: 0.875rem;">
+        <div style="border-bottom: 1px dotted #ccc; color: #999;  line-height: 1.5; padding-bottom: 0.3125rem; margin-bottom: 0.3125rem; padding-top: 0.325rem;">You are receiving this email because you have a  <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com">myAbakus account</a></div>
+        <a href="ttps://www.myabakus.com"><img src="http://www.myabakus.com/images/myabakus.png" alt="Logo" width="250" height="auto"/></a>
+        <div style="margin-top: 0.3125rem; background: #006e00; background-image: linear-gradient(180deg, #008800 0%, #005500 100%); border-radius: 5px; color: #fff; font-family: Verdana, Geneva, sans-serif; padding: 0.3125rem 0.625rem;">Keep your finger in the financial pulse of your business</div>
+      </header>
+      <main style="font-size: 1rem; line-height: 1.5; padding-top: 1rem; padding-bottom: 1rem;">
+        <h1 style=" margin-bottom: 1rem; margin-top: 0; font-size: 1.75rem; line-height: 1.2;">Welcome to myAbakus</h1>
+        <p>Thanks for creating your account <b>{$name}</b>.</p>
+        <p>Clicking the button below will take you directly inside the application where you can start the journey to control and understand the finances of <b>{$company}</b>.</p><div class="button-container" style="padding: 1rem; text-align: center;">
+          <a class="button" href="http://www.myabakus.org/admin/email/confirm/ed6418a3555c3bc6125c28a7b464bd44" style="background-image: linear-gradient(180deg, #FF6600 0%, #CC3300 100%); border-radius: 10px; color:#fff; font-size: 1.125rem; padding: 0.5rem 1rem; background-color: #e54c00; display: inline-block; text-decoration:none; line-height: 1.2;">Activate my account/start the free trial</a>
+          
+        </div>
+        
+        <p>And once you do it, we will give you instructions and resources to help you get started and get as much value as possible from using our software.</p>
+      </main>
+      <footer style="text-align: center; font-size: 0.875rem; margin-top: 1rem;">
+        <div style="border-top: 1px dotted #ccc; color: #999;  line-height: 1.75; padding-top: 0.3125rem; padding-bottom: 0.3125rem;">{if $admin}To stop receiving emails  <unsubscribe style="text-decoration: none; color: #369;" href="https://www.myabakus.com/app/account/delete/{$company_id}">unsubscribe here </unsubscribe>to cancel your <a style="text-decoration: none; color: #369;" href="https://www.myabakus.com">myAbakus</a> account{/if}<br>@Nomad Web Ventures Inc 2021<br>291 Wythe Av #3, Brooklyn NY 11249</div>
+      </footer>
+    </div>
+
+  </body>
+</html>
