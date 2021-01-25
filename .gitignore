@@ -1,2 +1,4 @@
 .DS_Store
 pinegrow.json
+
+node_modules/

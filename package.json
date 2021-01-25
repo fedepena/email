@@ -1,0 +1,25 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myabakus/email.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myabakus/email/issues"
+  },
+  "homepage": "https://github.com/myabakus/email#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.5"
+  },
+  "scripts": {
+    "gs-generate": "node gs-generate.js"
+  }
+}
