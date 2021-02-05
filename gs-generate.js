@@ -20,6 +20,7 @@ for (const lang of langs) {
           for (const video of videos) {
             doc('title').html(video.title);
             doc('h2').html(video.title);
+            doc('h2+p').html(video.desc);
             doc('a').attr('href', `${HOST}/videos/` + slug(video.title));
             fs.writeFileSync('./gs/' + lang + '-' + id(i) + '.html', doc.html());
             i ++;
